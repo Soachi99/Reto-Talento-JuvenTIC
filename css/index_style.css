@@ -1,0 +1,16 @@
+.banner{
+    height: 100vh;
+    position: relative;
+}
+
+.slider{
+    height: auto;
+    width: 100%;    
+    position: absolute;
+}
+
+.banner_images{
+    width: 1920px;
+    height: auto;
+}
+
