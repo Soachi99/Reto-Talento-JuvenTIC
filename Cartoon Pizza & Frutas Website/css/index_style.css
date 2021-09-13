@@ -217,7 +217,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
 }
 
-.card {  
+.recomendaciones .card {  
     margin: 10px auto;
 }
 
@@ -234,9 +234,34 @@ body{
     border-radius: 5px;
 }
 
+
+/*Sección Eventos*/
+.eventos{
+    position: relative;
+    margin-top: 7%;
+}
+
+.contenedor_opciones{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+   
+}
+
+.contenedor_opciones .card{
+    margin: 20px auto;
+}
+
+/*Media*/
+
+
 @media (max-width: 1080px) {
     .contenedor_recomendaciones_grid {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenedor_opciones{
+        display: grid;
+        grid-template-columns: 1fr;
     }
   }
   @media (max-width: 728px) {
@@ -244,6 +269,9 @@ body{
       grid-template-columns: 1fr;
     }
   }
+
+
+
 
 
 
