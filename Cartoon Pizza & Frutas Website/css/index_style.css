@@ -207,4 +207,46 @@ body{
 
 /* Sección recomendaciones */
 
+.recomendaciones{
+    position: relative;
+    margin-top: 0%;  
+}
+
+.contenedor_recomendaciones_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {  
+    margin: 10px auto;
+}
+
+#btn_mas{
+    position: absolute;
+    right: 45%;
+    margin-top: 1%;
+    color: black;
+    background: transparent;
+    font-size: 1vw;
+    padding: 1vw 1.5vw;
+    border: 1px solid black;
+    cursor: pointer;    
+    border-radius: 5px;
+}
+
+@media (max-width: 1080px) {
+    .contenedor_recomendaciones_grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 728px) {
+    .contenedor_recomendaciones_grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+
+
+
 
