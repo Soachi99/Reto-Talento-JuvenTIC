@@ -251,6 +251,38 @@ body{
     margin: 20px auto;
 }
 
+
+/*Sección de Testimonios*/
+
+
+.testimonios{
+    position: absolute;
+    margin-top: 0px;
+}
+
+.contenedor_test{    
+    max-width: 100%; 
+    width: 100%;
+    height: auto;    
+}
+
+.cliente{   
+    position: absolute;
+    left: 15%;
+    top: 22%;    
+}
+
+.text_testimonio{
+    position: absolute;
+    text-align: left;
+    width: 50%;
+    height: auto;
+    right: 16%;
+    top: 30%;
+    font-size: 2vw;    
+}
+
+
 /*Media*/
 
 
