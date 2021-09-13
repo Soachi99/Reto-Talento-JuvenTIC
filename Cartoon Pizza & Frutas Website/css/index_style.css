@@ -179,5 +179,32 @@ body{
     right: 49%;
 }
 
+/* Sección de nosotros */
+
+.nuestra_propuesta{
+    position: relative;
+    margin-top: 45.7%;    
+}
+
+.nosotros h1{
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 27.5%;
+    font-size: 5vw;
+}
+
+.nosotros p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    top: 35%;
+    left: 29.5%;
+    font-size: 1.8vw;
+}
+
+/* Sección recomendaciones */
 
 
