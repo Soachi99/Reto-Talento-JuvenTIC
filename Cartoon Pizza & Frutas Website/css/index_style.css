@@ -30,7 +30,6 @@ body{
     border-radius: 5px;
 }
 
-#topbar ul li a.active_op, 
 #topbar ul li a:active,
 #topbar ul li a:hover{
     background-color: white;
@@ -49,9 +48,136 @@ body{
     height: auto;    
 }
 
+
 .banner_images{
     max-width: 100%;
     height: auto;
 }
+
+.carousel-caption{
+    position: absolute;  
+    left: 0;  
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 1920px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.65);    
+}
+
+.carousel-caption button{
+    color: white;
+    background: transparent;
+    font-size: 1vw;
+    padding: 1vw 1.5vw;
+    border: 1px solid white;
+    cursor: pointer;    
+    border-radius: 5px;
+}
+
+.carousel-caption button:active,
+.carousel-caption button:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Primera imagen carrusel*/
+
+#logo_principal{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.carousel-caption #first_capt{
+    position: absolute;    
+    right: 19%;
+    top: 22%;
+    font-size: 4vw;
+}
+
+.carousel-caption #text_first_capt{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    right: 15%;
+    top: 48.5%;
+    font-size: 1.5vw;
+}
+
+.carousel-caption #first_btn{
+    position: absolute;
+    top: 62.5%;
+    right: 31.5%;
+}
+
+/*Segunda imagen carrusel*/
+
+#pizza_carousel{
+    position: absolute;
+    right: 15%;
+    top: 20%;
+}
+
+.carousel-caption #second_capt{
+    position: absolute; 
+    text-align: right;
+    width: 40%;
+    height: auto;   
+    left: 16%;
+    top: 22%;
+    font-size: 3vw;
+}
+
+.carousel-caption #text_second_capt{
+    position: absolute;
+    text-align: right;
+    width: 40%;
+    height: auto;
+    left: 16%;
+    top: 47%;
+    font-size: 1.5vw;
+}
+
+.carousel-caption #second_btn{
+    position: absolute;
+    top: 62.5%;
+    left: 48.25%;
+}
+
+/*Tercera imagen carrusel*/
+
+#pizza_carousel_two{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.carousel-caption #third_capt{
+    position: absolute; 
+    text-align: left;
+    width: 40%;
+    height: auto;   
+    right: 16%;
+    top: 30%;
+    font-size: 3vw;
+}
+
+.carousel-caption #text_third_capt{
+    position: absolute;
+    text-align:left;
+    width: 40%;
+    height: auto;
+    right: 16%;
+    top: 46%;
+    font-size: 1.5vw;
+}
+
+.carousel-caption #third_btn{
+    position: absolute;
+    top: 60%;
+    right: 49%;
+}
+
 
 
