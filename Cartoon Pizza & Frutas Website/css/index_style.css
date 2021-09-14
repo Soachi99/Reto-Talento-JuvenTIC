@@ -295,6 +295,23 @@ body{
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .pie{
+        display: grid;
+        align-items: center;
+    }
+
+    .logo_pie{
+        width: 20vw;
+        margin-top: 2%;        
+        margin-left: 0%;        
+        justify-self: center;
+    }
+
+    .datos{
+        justify-self: center;
+    }
+    
   }
   @media (max-width: 728px) {
     .contenedor_recomendaciones_grid {
@@ -302,6 +319,15 @@ body{
     }
   }
 
+  /* FOOTER */
+footer {
+    position: relative;
+    margin-top: 31%;
+    background: rgb(22,22,22);
+    max-width: 100%;
+    height: auto;
+  }
+  
 
 
 
