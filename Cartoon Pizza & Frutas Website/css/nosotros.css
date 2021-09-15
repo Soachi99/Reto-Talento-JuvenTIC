@@ -145,9 +145,61 @@
 }
 /* FIN PERSONAL */
 
+/* TESTIMONIALES*/
+.testimonios {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 60px;
+  -webkit-box-shadow: -1px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 22px 1px rgba(0, 0, 0, 0.75);
+}
+/*@media (max-width: 1080px) {
+  .contenedor_recomendaciones_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contenedor_opciones {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .pie {
+    display: grid;
+    align-items: center;
+  }
+
+  .logo_pie {
+    width: 20vw;
+    margin-top: 2%;
+    margin-left: 0%;
+    justify-self: center;
+  }
+
+  .datos {
+    justify-self: center;
+  }
+}*/
+@media (max-width: 834px) {
+  .testimonios p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .testimonios {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-item img {
+    display: none;
+  }
+}
+/* FIN TESTIMONIALES*/
+
 /* FOOTER */
 footer {
-  background: rgb(22,22, 22);
+  background: rgb(22, 22, 22);
   max-width: 100%;
   height: auto;
 }
@@ -188,9 +240,9 @@ footer {
   font-weight: 700;
 }
 
-.titulo-mapa :hover{  
+.titulo-mapa :hover {
   background: #fff;
-  color: #000;  
+  color: #000;
 }
 
 .mapa-sitio .lista-mapa-sitio {
