@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{    
+    font-family: 'Montserrat', sans-serif;   
+}
+
+/*Diseño de la barra de navegación*/
+
+.logo{
+    height: 80px;
+    cursor: pointer;
+}
+
+#topbar ul li{
+    list-style: none;
+    margin: 15px 15px;
+}
+
+#topbar ul li a{
+    color: white;
+    background: transparent;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+#topbar ul li a.active_op,
+#topbar ul li a:active,
+#topbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Sección del mapa del sitio */
+
+.mapa{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.mapa_container{    
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 40px;
+}
+
+footer{
+    margin-top: 8.5%;
+}
+
+
+@media (max-width: 1320px) {
+    .mapa_container{
+        grid-template-columns: repeat(3, 2fr);
+    }    
+  }
+
+@media (max-width: 940px) {
+    .mapa_container{
+        grid-template-columns: 1fr;
+    }    
+  }
+
+
+

@@ -147,7 +147,7 @@
 
 /* FOOTER */
 footer {
-  background: rgb(22, 22, 22);
+  background: rgb(22,22, 22);
   max-width: 100%;
   height: auto;
 }
@@ -181,8 +181,18 @@ footer {
   position: relative;
 }
 .mapa-sitio h2 {
+  position: relative;
+  left: 28%;
+  width: 45%;
+  height: auto;
   font-weight: 700;
 }
+
+.titulo-mapa :hover{  
+  background: #fff;
+  color: #000;  
+}
+
 .mapa-sitio .lista-mapa-sitio {
   width: 35%;
   margin: auto;
