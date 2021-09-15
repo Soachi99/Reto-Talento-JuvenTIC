@@ -30,6 +30,8 @@ body{
     border-radius: 5px;
 }
 
+
+#topbar ul li a.active_op,
 #topbar ul li a:active,
 #topbar ul li a:hover{
     background-color: white;
