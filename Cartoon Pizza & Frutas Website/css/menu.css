@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 /*Diseño de la barra de navegación*/
 
 .logo{
