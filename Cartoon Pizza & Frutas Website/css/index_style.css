@@ -186,6 +186,8 @@ body{
 .nuestra_propuesta{
     position: relative;
     margin-top: 45.7%;    
+    max-width: 100%; 
+    height: auto;  
 }
 
 .nosotros h1{
@@ -212,6 +214,8 @@ body{
 .recomendaciones{
     position: relative;
     margin-top: 0%;  
+    max-width: 100%; 
+    height: auto;  
 }
 
 .contenedor_recomendaciones_grid{
@@ -227,6 +231,7 @@ body{
     position: absolute;
     right: 45%;
     margin-top: 1%;
+    margin-bottom: 2%;
     color: black;
     background: transparent;
     font-size: 1vw;
@@ -236,11 +241,19 @@ body{
     border-radius: 5px;
 }
 
+#btn_mas:active,
+#btn_mas:hover{
+    color: white;
+    background: black;
+}
+
 
 /*Sección Eventos*/
 .eventos{
     position: relative;
     margin-top: 7%;
+    max-width: 100%; 
+    height: auto;  
 }
 
 .contenedor_opciones{
@@ -260,6 +273,8 @@ body{
 .testimonios{
     position: absolute;
     margin-top: 0px;
+    max-width: 100%; 
+    height: auto;      
 }
 
 .contenedor_test{    
@@ -296,28 +311,63 @@ body{
     .contenedor_opciones{
         display: grid;
         grid-template-columns: 1fr;
+    }   
+
+    .carousel-caption button{
+        color: white;
+        background: transparent;
+        font-size: 2.5vw;
+        padding: 1vw 1.5vw;
+        border: 1px solid white;
+        cursor: pointer;    
+        border-radius: 5px;
     }
 
-    .pie{
-        display: grid;
-        align-items: center;
+    .carousel-caption #first_btn{
+        position: absolute;
+        top: 64.5%;
+        right: 28.5%;
     }
 
-    .logo_pie{
-        width: 20vw;
-        margin-top: 2%;        
-        margin-left: 0%;        
-        justify-self: center;
+    .carousel-caption #second_btn{
+        position: absolute;
+        top: 62.5%;
+        left: 40.5%;
     }
 
-    .datos{
-        justify-self: center;
+    .carousel-caption #third_btn{
+        position: absolute;
+        top: 60%;
+        right: 42.5%;
+    }
+
+    #btn_mas{
+        position: absolute;
+        right: 40.5%;    
+        font-size: 2vw;
+        padding: 1vw 1.5vw;  
+        margin-bottom: 2%;      
     }
     
   }
   @media (max-width: 728px) {
     .contenedor_recomendaciones_grid {
       grid-template-columns: 1fr;
+    }
+
+    #btn_mas{
+        position: absolute;
+        right: 30%;    
+        font-size: 5vw;
+        padding: 1vw 1.5vw;  
+        margin-bottom: 2%;      
+    }
+
+    .eventos{
+        position: relative;
+        margin-top: 12%;
+        max-width: 100%; 
+        height: auto;  
     }
   }
 
