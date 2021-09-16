@@ -40,7 +40,7 @@
             <h1>contáctenos</h1>
               <form action="" class="formulario">
                     <input type="text" class="asunto" placeholder="Asunto *" required>
-                    <input type="text" class="nombre" placeholder="Nombre Completo *" required>
+                    <input type="text" class="nombre" placeholder="Nombre Completo *" pattern="[a-zA-Z'-'\s]*" minlength="8" maxlength="60" required>
                     <input type="email" class="correo" placeholder="Correo Completo *" required>
                     <select class="servicios" name="" id="">
                         <option disabled selected>-- Seleccion el servicio --</option>
