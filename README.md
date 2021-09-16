@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/88408551/133530498-3952db49-ab21-427c-b689-d806dfd41f5f.png)
 
-En este primer reto se realizó el diseño de una pagina web de un restaurante, en este caso, una pizzeria con tematica de Batman, llamada Cartoon Pizza & Fruta. Esta pagina web contiene los siguientes apartados
+En este primer reto se realizó el diseño y programación front-end de una pagina web de un restaurante, en este caso, una pizzeria con tematica de Batman, llamada Cartoon Pizza & Fruta. Esta pagina web contiene los siguientes apartados
 
 ## INICIO
 
