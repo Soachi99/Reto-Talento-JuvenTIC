@@ -26,9 +26,9 @@ En la pagina de menu encontraras un grupo de los productos del restaurante.
 
 En la pagina de servicios, encontraras diferentes eventos y servicios que presta el restaurante a sus clientes
 
-![image](https://user-images.githubusercontent.com/88408551/133532861-ce1e2ff4-9467-45fc-90c7-fd6aed6a9289.png)
+![image](https://user-images.githubusercontent.com/88408551/133533564-ce3b367e-336e-4511-8e93-d2e341158f37.png)
 
-## CONTACTENIS
+## CONTÁCTENOS
 
 En la pagina de contactenos, encontraras un formulario donde llenando los datos obligatorios como nombre, corre y asunto del cliente, puedes enviar un mensaje directamente al restaurante.
 
