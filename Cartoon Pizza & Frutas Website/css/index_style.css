@@ -1,6 +1,9 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    -web-kit: border-box;
 }
 
 body{    
@@ -43,16 +46,20 @@ body{
 .banner{
     position: absolute;
     margin-top: 0px;
+    width: 100%;
+    height: auto;
 }
 
-.slider{    
-    max-width: 100%; 
+.slider{   
+    margin: auto;     
+    width: 100%;
     height: auto;    
 }
 
 
 .banner_images{
-    max-width: 100%;
+    margin: auto;    
+    width: 100%;
     height: auto;
 }
 
@@ -62,7 +69,7 @@ body{
     top: 0;
     right: 0;
     bottom: 0;
-    max-width: 1920px;
+    width: 100%;
     height: auto;
     background: rgba(0, 0, 0, 0.65);    
 }
@@ -186,7 +193,12 @@ body{
 .nuestra_propuesta{
     position: relative;
     margin-top: 45.7%;    
-    max-width: 100%; 
+    width: 100%; 
+    height: auto;  
+}
+
+.nosotros{
+    width: 100%; 
     height: auto;  
 }
 
@@ -273,7 +285,7 @@ body{
 .testimonios{
     position: absolute;
     margin-top: 0px;
-    max-width: 100%; 
+    width: 100%; 
     height: auto;      
 }
 
