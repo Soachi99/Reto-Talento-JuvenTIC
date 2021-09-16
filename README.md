@@ -42,3 +42,11 @@ En el mapa del sitio encontraras los enlaces correspondientes a todas las seccio
 
 ## MENSAJE A LOS EVALUADORES
 
+Esperamos que sea del agrado de los evaluadores, como fue nuestro el agrado de realizar el proceso de diseño y programación front-end de la pagina web para completar el reto numero 1 del programa. Esto fue realizado por el grupo 3, conformado por:
+
+- Juan Pablo Insuasty Murillo
+- Dilan Enrique Espíndola Gil
+- Caleb David Parra Cáceres
+- Brandon Hernández
+
+De nuevo, muchas gracias por esta oportunidad.
