@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.contenedor {
+  max-width: 1200px;
+  width: 70%;
+  margin: 40px auto;
+  padding: 30px;
+  /*background: #fdfdd9;*/
+}
+.formulario h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.formulario {
+  margin: 0 auto;
+  -webkit-box-shadow: -1px -1px 15px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 15px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 15px 4px rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 10px;
+  /*background: #fff;*/
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 50%,
+    rgba(251, 251, 251, 1) 100%
+  );
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+.formulario input,
+textarea {
+  padding: 10px 5px;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid#c4c4c4;
+  transition: all 0.5s ease-in-out;
+  color: #000;
+}
+
+input[type="text"]:focus {
+  border-bottom: 1.7px solid#2a2a2a;
+  transform: scale(0.97);
+}
+input[type="email"] {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid#c4c4c4;
+  transition: all 0.5s ease-in-out;
+  color: #000;
+}
+
+input[type="email"]:focus {
+  border-bottom: 1.7px solid#2a2a2a;
+  transform: scale(0.97);
+}
+input[type="tel"] {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid#c4c4c4;
+  transition: all 0.5s ease-in-out;
+  color: #000;
+}
+input[type="tel"]:focus {
+  border-bottom: 1.7px solid#2a2a2a;
+  transform: scale(0.97);
+}
+input[type="number"] {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid#c4c4c4;
+  transition: all 0.5s ease-in-out;
+  color: #000;
+}
+input[type="number"]:focus {
+  border-bottom: 1.7px solid#2a2a2a;
+  transform: scale(0.97);
+}
+
+.btn-añadir {
+  margin-top: 20px;
+}
+
+/* estilos a mensajes de errores si lo hay */
+.msgError {
+  background-color: #952222;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+/* mostrar reservas*/
+.mostrarReserva {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid;
+  background-color: #000;
+  border-radius: 5px;
+  -webkit-box-shadow: -1px -1px 15px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 15px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 15px 4px rgba(0, 0, 0, 0.75);
+}
+.mostrarReserva .titulo-reservas {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #fff;
+}
+.mostrarReserva .card {
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+.mostrarReserva .card p {
+  color: #cac9c9;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.mostrarReserva .card span {
+  font-weight: 600;
+  color: #fff;
+  text-transform: initial;
+  font-size: 21px;
+}
+
+/* Enviar y Eliminar reserva */
+.btn-reserva {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-eliminar,
+.btn-enviar {
+  border: 2px solid #dbdada;
+  background-color: #000;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 0;
+  width: 45%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.btn-eliminar:hover,
+.btn-enviar:hover {
+  background: #dbdada;
+  color: #000;
+}

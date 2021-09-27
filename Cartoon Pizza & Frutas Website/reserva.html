@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar_style.css">
+    <link rel="stylesheet" href="css/reserva.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>    
+</head>
+<body>
+    <!------------------------------------------ NAVBAR ---------------------------------------->
+    <nav class="navbar navbar-expand-xl navbar-dark " style="background-color: rgb(22,22,22);">
+        <div class="container-fluid">
+            <img src="images/logo_banner.png" class="logo">
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#topbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="topbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="services.html"> <b>Regresar a Servicios</b> </a></li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="contenedor">        
+        <form class="formulario" id="form">
+            <h2 class="titulo">Haz tu reserva aquí</h2>     
+
+            <p class="nameError"></p>
+            <input type="text" id="name" placeholder="Ingresa tu nombre" required>  
+
+            <p class="emailError"></p>
+            <input type="email" id="email" placeholder="Ingresa tu correo electronico" required>
+
+
+            <input type="tel" id="telefono" /*pattern="[0-9]{0-9}"*/ placeholder="Ingresa tu numero de telefono" required>
+            <label for="">Número de personas para esta reserva</label>
+            <input type="number" id="numeroPersonas" min="1" required>
+            <select class="servicios" id="servicio" required>
+                <option disabled selected>-- Seleccione el servicio --</option>
+                <option value="">Celebracion de Cumpleaños</option>
+                <option value="">Aniversarios</option>
+                <option value="">Fiestas Infantiles</option>
+                <option value="">Declaraciones o Propuestas</option>
+                <option value="">Despedidas</option>
+                <option value="">Cena con Amigos</option>
+            </select>
+            <div class="fecha">
+                <label for="">Fecha</label>
+                <input type="date" id="fecha" required>
+            </div>        
+            <div class="hora">
+                <label for="">Hora</label>
+                <input type="time" id="hora" required>
+            </div>
+            <textarea id="indicionesEspeciales" cols="30" rows="10" 
+                      placeholder="Si quieres alguna indicacion especial(peticion extra) escibela aquí"></textarea>
+        
+            <button type="submit" class="btn-añadir">Añadir reserva</button>
+        </form>
+    </div>
+    
+    <div class="mostrarReserva"></div>
+
+    <script src="js/reserva.js"></script>    
+</body>
+</html>
