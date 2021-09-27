@@ -21,8 +21,23 @@ div .card{
     box-shadow: #000;
 }
 
+.card-body a h3{
+  text-decoration: none;
+  color: #b71c1c;
+}
+.container a h3:hover{
+ color: black;
+  transition: .2s;
+  font-size: 30px;
+  text-decoration: none;
+}
 
-
+.container .card{
+  box-shadow: -7px 7px 17px -4px rgba(0,0,0,1);
+-webkit-box-shadow: -7px 7px 17px -4px rgba(0,0,0,1);
+-moz-box-shadow: -7px 7px 17px -4px rgba(0,0,0,1);
+  margin-bottom: 15px;
+}
 /* FOOTER */
 footer {
   margin-top: 5%;
