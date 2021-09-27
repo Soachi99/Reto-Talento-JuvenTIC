@@ -10,37 +10,6 @@ body{
     font-family: 'Montserrat', sans-serif;   
 }
 
-/*Diseño de la barra de navegación top bar*/
-
-.logo{
-    height: 80px;
-    cursor: pointer;
-}
-
-#topbar ul li{
-    list-style: none;
-    margin: 15px 15px;
-}
-
-#topbar ul li a{
-    color: white;
-    background: transparent;
-    font-size: 15px;
-    padding: 10px 30px;
-    border: 1px solid white;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-
-#topbar ul li a.active_op,
-#topbar ul li a:active,
-#topbar ul li a:hover{
-    background-color: white;
-    color: black;
-}
-
 /*Diseño del carrusel*/
 
 .banner{
