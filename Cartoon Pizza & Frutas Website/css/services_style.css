@@ -20,7 +20,9 @@ margin-top: 2%;
 div .card{
     box-shadow: #000;
 }
-
+div a{
+   text-decoration: none;
+ }
 .card-body a h3{
   text-decoration: none;
   color: #b71c1c;
