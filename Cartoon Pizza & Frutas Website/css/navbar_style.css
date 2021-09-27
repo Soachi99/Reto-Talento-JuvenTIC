@@ -26,6 +26,10 @@
     color: black;  
 } 
 
+#topbar ul li a.active_op > #carrito{
+    filter: invert(100%);
+} 
+
 #topbar ul li a:hover > #carrito{
     filter: invert(100%);
 } 
@@ -54,6 +58,11 @@
 }
 
 #topbar ul li a:hover > #numero{
+    color: white;
+    background: rgb(22, 22, 22);
+} 
+
+#topbar ul li a.active_op > #numero{
     color: white;
     background: rgb(22, 22, 22);
 } 
