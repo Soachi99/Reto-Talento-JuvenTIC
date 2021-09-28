@@ -29,7 +29,7 @@ div a{
 }
 .container a h3:hover{
  color: black;
-  transition: .2s;
+  transition: .3s;
   font-size: 30px;
   text-decoration: none;
 }
