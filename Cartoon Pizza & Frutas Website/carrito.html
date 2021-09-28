@@ -22,7 +22,7 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap');
-        </style>
+    </style>
 
     <!-- Title-->
     <title>Cartoon Pizza & Frutas - Carrito de Compras</title>
@@ -76,12 +76,16 @@
                                         </p>
 
                                         <div class="botones">
-                                            <button type="button" class="boton btn btn-dark" style="width: 50px; height: 50px;"> - </button>
-                                            <p class="boton border border-dark text-center pt-3" id="numero_productos" style="width: 50px; height: 50px;"> # </p>
-                                            <button type="button" class="boton btn btn-dark" style="width: 50px; height: 50px;"> + </button>                                            
+                                            <button type="button" class="boton btn btn-dark"
+                                                style="width: 50px; height: 50px;"> - </button>
+                                            <p class="boton border border-dark text-center pt-3" id="numero_productos"
+                                                style="width: 50px; height: 50px;"> # </p>
+                                            <button type="button" class="boton btn btn-dark"
+                                                style="width: 50px; height: 50px;"> + </button>
                                         </div>
 
-                                        <button type="button" class="btn btn-dark" style="width: 150px;"> Eliminar producto </button>
+                                        <button type="button" class="btn btn-dark" style="width: 150px;"> Eliminar
+                                            producto </button>
 
                                     </div>
                                 </div>
@@ -104,12 +108,16 @@
                                         </p>
 
                                         <div class="botones">
-                                            <button type="button" class="boton btn btn-dark" style="width: 50px; height: 50px;"> - </button>
-                                            <p class="boton border border-dark text-center pt-3" id="numero_productos" style="width: 50px; height: 50px;"> # </p>
-                                            <button type="button" class="boton btn btn-dark" style="width: 50px; height: 50px;"> + </button>                                            
+                                            <button type="button" class="boton btn btn-dark"
+                                                style="width: 50px; height: 50px;"> - </button>
+                                            <p class="boton border border-dark text-center pt-3" id="numero_productos"
+                                                style="width: 50px; height: 50px;"> # </p>
+                                            <button type="button" class="boton btn btn-dark"
+                                                style="width: 50px; height: 50px;"> + </button>
                                         </div>
 
-                                        <button type="button" class="btn btn-dark" style="width: 150px;"> Eliminar producto </button>
+                                        <button type="button" class="btn btn-dark" style="width: 150px;"> Eliminar
+                                            producto </button>
 
                                     </div>
                                 </div>
@@ -119,43 +127,77 @@
                 </ul>
             </div>
 
-            <div class="detalles text-white card mt-4 ms-5 me-5" style="background-color: rgb(22,22,22);">                
+            <div class="detalles text-white card mt-4 ms-5 me-5" style="background-color: rgb(22,22,22);">
                 <div class="card-body ">
-                  <h5 class="card-title text-center fs-2 fw-bold">Detalles</h5>
-                  <p class="card-text text-center">Total productos: </p>
-                  <p class="card-text text-center">Servicio: </p>
-                  <p class="card-text text-center">Total: </p>
-                  <a href="#" class="btn btn-outline-light d-block mx-auto" style="width: 150px;">Reserva</a>
+                    <h5 class="card-title text-center fs-2 fw-bold">Detalles</h5>
+                    <p class="card-text text-center">Total productos: </p>
+                    <p class="card-text text-center">Servicio: </p>
+                    <p class="card-text text-center">Total: </p>
+                    <button type="button" class="btn btn-outline-light d-block mx-auto" data-bs-toggle="modal"
+                        data-bs-target="#confirmacion_modal" style="width: 200px;">Finalizar pedido</button>
                 </div>
-              </div>
+            </div>
         </div>
     </section>
+
+    <div class="modal" id="confirmacion_modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Confirme su pedido</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>                    
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div>
+                            <label class="form-label"> Nombre Completo* </label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mt-2">
+                            <label class="form-label"> Correo Electronico* </label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="mt-2">
+                            <label class="form-label"> Observaciones </label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark mt-3">Confirmar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <footer>
         <div class="contenido-footer">
 
-          <img src="images/logo_banner.png" class="logo">              
+            <img src="images/logo_banner.png" class="logo">
 
-          <div class="mapa-sitio">
-              <a class="titulo-mapa text-decoration-none" href="mapa.html"> <h2>Mapa del sitio</h2> </a>
-              <div class="lista-mapa-sitio">
-                  <a href="index.html">inicio</a>
-                  <a href="nosotros.html">nosotros</a>
-                  <a href="menu.html">menú</a>
-                  <a href="#">servicios</a>
-                  <a href="contacto.html">contactenos</a>
-              </div>                
-          </div>
+            <div class="mapa-sitio">
+                <a class="titulo-mapa text-decoration-none" href="mapa.html">
+                    <h2>Mapa del sitio</h2>
+                </a>
+                <div class="lista-mapa-sitio">
+                    <a href="index.html">inicio</a>
+                    <a href="nosotros.html">nosotros</a>
+                    <a href="menu.html">menú</a>
+                    <a href="#">servicios</a>
+                    <a href="contacto.html">contactenos</a>
+                </div>
+            </div>
 
-          <div class="servicios">
-              <h2>servicios especiales</h2>
-              <div class="lista-servicios">
-                  <li>fiestas tematicas</li>
-                  <li>cumpleaños</li>
-                  <li>cartoon party</li>
-              </div>                
-          </div>
-        </div>        
+            <div class="servicios">
+                <h2>servicios especiales</h2>
+                <div class="lista-servicios">
+                    <li>fiestas tematicas</li>
+                    <li>cumpleaños</li>
+                    <li>cartoon party</li>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
