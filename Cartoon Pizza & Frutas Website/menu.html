@@ -18,13 +18,11 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/menu_style.css">
-  <link rel="stylesheet" type="text/css" href="js/main.js">
+  <link rel="stylesheet" href="css/menu_style.css">
   <link rel="stylesheet" href="css/navbar_style.css">
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap');
   </style>
 
   <!-- Title-->
@@ -49,229 +47,33 @@
           <li class="nav-item"><a class="nav-link active_op" href="menu.html"> <b>Menú</b> </a></li>
           <li class="nav-item"><a class="nav-link" href="services.html"> <b>Servicios</b> </a></li>
           <li class="nav-item"><a class="nav-link" href="contacto.html"> <b>Contactanos</b> </a></li>
-          <li class="nav-item"><a class="nav-link" id="cart" href="carrito.html"> 
-            <img src="images/cart.png" id="carrito" style="width: 40px; height: auto;">                     
-             <b> Carrito de compras </b> <sub id="numero" class="fw-bold"> 0 </sub> </a></li>
+          <li class="nav-item"><a class="nav-link" id="cart" href="carrito.html">
+              <img src="images/cart.png" id="carrito" style="width: 40px; height: auto;">
+              <b> Carrito de compras </b> <sub id="numero" class="fw-bold"> 0 </sub> </a></li>
       </div>
     </div>
   </nav>
 
-  <!-- Contenido pagina -->
-
-  <section class="gallery min-vh-100">
-    <h1>CARTOON PIZZA MENU ESPECIAL</h1>
-
-
-
-    <div class="container-lg">
-       <div class="row">
-          <div class="col-4">
-             <img src="Images/pizza_bolonesa.png" class="gallery-item" alt="gallery">
-          </div>
-               <div class="col-5">
-                <h2>Pizza Boloñesa Cartoon</h2>
-                <p>100g de Queso mozzarella, 150g de tomate fresco, 100g de salsa boloñesa.</p>
-                <a href="pizzabolonesa.html" class="btn btn-dark" role="button" aria-pressed="true" style="width: 120px; height: 40px;">Ver más</a>
-                </div>
-
-                <div class="col-3">
-                  <div class="botones">
-                    <button type="button" class="boton btn btn-dark"
-                        style="width: 50px; height: 50px;"> - </button>
-                    <p class="boton border border-dark text-center pt-3" id="numero_productos"
-                        style="width: 50px; height: 50px;"> # </p>
-                    <button type="button" class="boton btn btn-dark"
-                        style="width: 50px; height: 50px;"> + </button>
-                        </div>
-
-                        <button type="button" class="btn btn-dark" style="width: 182px;">Añadir al carrito </button>
-                  
-                </div>
-
-                </div>
-
-        <div class="row">
-          <div class="col-4">
-             <img src="Images/pizza_calzone.png" class="gallery-item" alt="gallery">
-            </div>
-
-            <div class="col-5">
-             <h2>Pizza Calzone Cartoon</h2>
-            <p>200g de Queso mozzarella, 80g de tomate fresco, 100g de salami iberico.</p>
-            <a href="pizzacalzone.html" class="btn btn-dark" role="button" aria-pressed="true" style="width: 120px; height: 40px;">Ver más</a>
-            </div>
-
-            <div class="col-3">
-              <div class="botones">
-                <button type="button" class="boton btn btn-dark"
-                    style="width: 50px; height: 50px;"> - </button>
-                <p class="boton border border-dark text-center pt-3" id="numero_productos"
-                    style="width: 50px; height: 50px;"> # </p>
-                <button type="button" class="boton btn btn-dark"
-                    style="width: 50px; height: 50px;"> + </button>
-                    </div>
-
-                    <button type="button" class="btn btn-dark" style="width: 182px;">Añadir al carrito </button>
-              
-            </div>
-            
-          </div>
-
-          <div class="row">
-          <div class="col-4">
-             <img src="Images/pizza_chicago.png" class="gallery-item" alt="gallery">
-          </div>
-
-            <div class="col-5">
-             <h2>Pizza Chicago Cartoon</h2>
-             <p>300g de tomate fresco, 200g de queso mozzarella rallado, 20 piezas de jamón de cerdo.</p>
-             <a href="pizzachicago.html" class="btn btn-dark" role="button" aria-pressed="true" style="width: 120px; height: 40px;">Ver más</a>
-              </div>
-
-              <div class="col-3">
-                <div class="botones">
-                  <button type="button" class="boton btn btn-dark"
-                      style="width: 50px; height: 50px;"> - </button>
-                  <p class="boton border border-dark text-center pt-3" id="numero_productos"
-                      style="width: 50px; height: 50px;"> # </p>
-                  <button type="button" class="boton btn btn-dark"
-                      style="width: 50px; height: 50px;"> + </button>
-                      </div>
-  
-                      <button type="button" class="btn btn-dark" style="width: 182px;">Añadir al carrito </button>
-                
-              </div>
-              </div>
-
-        <div class="row">
-          <div class="col-4">
-             <img src="Images/pizza_cuatroquesos.png" class="gallery-item" alt="gallery">
-          </div>
-
-          <div class="col-5">
-             <h2>Pizza Cuatro Quesos Cartoon</h2>
-             <p>150g de salsa casera, 100g de queso parmesano rallado, 100g de queso azul, 200g de queso mozarella.</p>
-             <a href="pizzacuatroquesos.html" class="btn btn-dark" role="button" aria-pressed="true" style="width: 120px; height: 40px;">Ver más</a>
-          </div>
-
-          <div class="col-3">
-            <div class="botones">
-              <button type="button" class="boton btn btn-dark"
-                  style="width: 50px; height: 50px;"> - </button>
-              <p class="boton border border-dark text-center pt-3" id="numero_productos"
-                  style="width: 50px; height: 50px;"> # </p>
-              <button type="button" class="boton btn btn-dark"
-                  style="width: 50px; height: 50px;"> + </button>
-                  </div>
-
-                  <button type="button" class="btn btn-dark" style="width: 182px;">Añadir al carrito </button>
-            
-          </div>
-          </div>
-
-          <div class="row">
-          <div class="col-4">
-             <img src="Images/pizza_diavola.png" class="gallery-item" alt="gallery">
-          </div>
-
-          <div class="col-5">
-             <h2>Pizza Diávola Cartoon</h2>
-             <p>250g de salsa de tomate, 100g de queso mozzarella, 100g de queso emmental, 100g de pepperoni, salami y chorizo picante.</p>
-             <a href="pizzadiabola.html" class="btn btn-dark" role="button" aria-pressed="true" style="width: 120px; height: 40px;">Ver más</a>
-          </div>
-
-          <div class="col-3">
-            <div class="botones">
-              <button type="button" class="boton btn btn-dark"
-                  style="width: 50px; height: 50px;"> - </button>
-              <p class="boton border border-dark text-center pt-3" id="numero_productos"
-                  style="width: 50px; height: 50px;"> # </p>
-              <button type="button" class="boton btn btn-dark"
-                  style="width: 50px; height: 50px;"> + </button>
-                  </div>
-
-                  <button type="button" class="btn btn-dark" style="width: 182px;">Añadir al carrito </button>
-            
-          </div>
-          </div>
-
-          <div class="row">
-          <div class="col-4">
-             <img src="Images/pizza_funghi.png" class="gallery-item" alt="gallery">
-             </div>
-
-             <div class="col-5">
-             <h2>Pizza Funghi Cartoon</h2>
-             <p>125g de salsa de tomate, oregano, 250g de queso parmesano, 250g de queso mozzarella, fiambre de jamñon cocido, champiñones.</p>
-             <a href="pizzafunghi.html" class="btn btn-dark" role="button" aria-pressed="true" style="width: 120px; height: 40px;">Ver más</a>
-          </div>
-
-          <div class="col-3">
-            <div class="botones">
-              <button type="button" class="boton btn btn-dark"
-                  style="width: 50px; height: 50px;"> - </button>
-              <p class="boton border border-dark text-center pt-3" id="numero_productos"
-                  style="width: 50px; height: 50px;"> # </p>
-              <button type="button" class="boton btn btn-dark"
-                  style="width: 50px; height: 50px;"> + </button>
-                  </div>
-
-                  <button type="button" class="btn btn-dark" style="width: 182px;">Añadir al carrito </button>
-            
-          </div>
-          </div>
-
-          <div class="row">
-          <div class="col-4">
-            <img src="Images/pizza_margarita.png" class="gallery-item" alt="gallery">
-            </div>
-
-            <div class="col-5">
-            <h2>Pizza Margarita Cartoon</h2>
-             <p>90g de queso mozzarella, 10g de salsa de toamte triturado, hojas de albahaca.</p>
-            <a href="pizzamargarita.html" class="btn btn-dark" role="button" aria-pressed="true" style="width: 120px; height: 40px;">Ver más</a>
-         </div>
-
-         <div class="col-3">
-          <div class="botones">
-            <button type="button" class="boton btn btn-dark"
-                style="width: 50px; height: 50px;"> - </button>
-            <p class="boton border border-dark text-center pt-3" id="numero_productos"
-                style="width: 50px; height: 50px;"> # </p>
-            <button type="button" class="boton btn btn-dark"
-                style="width: 50px; height: 50px;"> + </button>
-                </div>
-
-                <button type="button" class="btn btn-dark" style="width: 182px;">Añadir al carrito </button>
-          
-        </div>
-         </div>
+  <section class="Productos">
+    <div class="titulo">
+      <h1 class="fs-1 fw-bold ms-5 mt-4">Nuestros productos</h1>
+      <h2 class="ms-5 mt-4 fs-4">Aqui puedes ver y agregar los productos que quieres comprar</h2>
     </div>
- </section>
+    <div class="contenedor_principal m-3">
+      <div class="contenedor_productos">
+        <ul class="list-group ms-5 me-5" id="cont">
 
- <!-- Fin del contenido de la pagina -->
- 
-
- <!-- Modal -->
-<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">CARTOON PIZZA & FRUTAS</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-         <img src="img/1.jpg" class="modal-img" alt="modal img">
+        </ul>
       </div>
     </div>
-  </div>
-</div>
+  </section>
 
-<!-- Fin del Modal -->
-
-<script src="js/main.js"></script>
+  <section class="Modal" id="mod">
 
   </section>
+
+
+
 
   <footer>
     <div class="contenido-footer">
@@ -279,7 +81,9 @@
       <img src="images/logo_banner.png" class="logo">
 
       <div class="mapa-sitio">
-        <a class="titulo-mapa text-decoration-none" href="mapa.html"> <h2>Mapa del sitio</h2> </a>
+        <a class="titulo-mapa text-decoration-none" href="mapa.html">
+          <h2>Mapa del sitio</h2>
+        </a>
         <div class="lista-mapa-sitio">
           <a href="index.html">inicio</a>
           <a href="nosotros.html">nosotros</a>
@@ -300,8 +104,8 @@
     </div>
   </footer>
 
-
-
+  <script src="js/menu.js"> </script>
+  <script src="js/modal_products.js"> </script>
 
 </body>
 

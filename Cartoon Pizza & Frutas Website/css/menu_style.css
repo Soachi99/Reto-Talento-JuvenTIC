@@ -1,56 +1,43 @@
-/* Fuente  */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
-
-/* Estilo menú */
-
-img{
-	max-width: 100%;
-}
-.gallery{
-	background-color: #ffffff;
-	padding: 50px 0;
-}
-.gallery img{
-	background-color: #790202;
-	padding: 10px;
-	width: 100%;
-	box-shadow: 0 0 15px rgba(0,0,0,0.8);
-	cursor: pointer;
-	margin-bottom: 20px;
-}
-#gallery-modal .modal-img{
-	width: 100%;
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    -web-kit: border-box;
 }
 
-/* Estilo descripcion menú */
-
-h1{
-	color: rgb(0, 0, 0);
-	text-align: center;
-	margin-bottom: 60px;
-	font-size: 70px;
-	font-family: 'Montserrat' 500;
-
+body{    
+    font-family: 'Montserrat', sans-serif;   
 }
 
-h2{
-	font-style: oblique;
-	font-size: 50px;
+.contenedor_productos button{
+    background-color: rgb(22, 22, 22);
 }
 
-p{
-	font-style: oblique;
-	font-size: 22px;
+.contenedor_productos{    
+    width: auto;
+    height: auto;
 }
 
-/* Botones para añadir al carrito */
-
-.botones{    
+.botones{        
     width: 200px;
     display: grid;    
-    grid-template-columns: repeat(3, 1fr);  
-	margin-top: 100px;   
+    grid-template-columns: repeat(3, 1fr);       
+}
+
+.botones_detalles{
+    width: 200px;
+    display: grid;    
+    grid-template-columns: repeat(1, 2fr);
+    
+}
+
+.contenedor_productos img{
+	background-color: #790202;
+	padding: 10px;	
+	box-shadow: 0 0 15px rgba(0,0,0,0.8);	
+    margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 

@@ -1,0 +1,65 @@
+[
+    {
+        "nombre": "Pizza Boloñesa Cartoon",
+        "descripcion": "100g de Queso mozzarella, 150g de tomate fresco, 100g de salsa boloñesa.",
+        "precio": 24900,        
+        "imagen": "./images/pizza_bolonesa.png",
+        "modal": "1"
+    },
+    {
+        "nombre": "Pizza Calzone Cartoon",
+        "descripcion": "200g de Queso mozzarella, 80g de tomate fresco, 100g de salami iberico.",
+        "precio": 24900,        
+        "imagen": "./images/pizza_calzone.png",
+        "modal": "2"
+    },
+    {
+        "nombre": "Pizza Chicago Cartoon",
+        "descripcion": "300g de tomate fresco, 200g de queso mozzarella rallado, 20 piezas de jamón de cerdo.",
+        "precio": 29900,        
+        "imagen": "./images/pizza_chicago.png",
+        "modal": "3"
+    },
+    {
+        "nombre": "Pizza Cuatro Quesos Cartoon",
+        "descripcion": "150g de salsa casera, 100g de queso parmesano rallado, 100g de queso azul, 200g de queso mozarella..",
+        "precio": 34900,        
+        "imagen": "./images/pizza_calzone.png",
+        "modal": "4"
+    },
+    {
+        "nombre": "Pizza Diávola Cartoon",
+        "descripcion": "250g de salsa de tomate, 100g de queso mozzarella, 100g de queso emmental, 100g de pepperoni, salami y chorizo picante.",
+        "precio": 34900,        
+        "imagen": "./images/pizza_diavola.png",
+        "modal": "5"
+    },
+    {
+        "nombre": "Pizza Funghi Cartoon",
+        "descripcion": "125g de salsa de tomate, oregano, 250g de queso parmesano, 250g de queso mozzarella, fiambre de jamñon cocido, champiñones.",
+        "precio": 24900,        
+        "imagen": "./images/pizza_funghi.png",
+        "modal": "6"
+    },
+    {
+        "nombre": "Pizza Margarita Cartoon",
+        "descripcion": "90g de queso mozzarella, 10g de salsa de toamte triturado, hojas de albahaca.",
+        "precio": 36900,        
+        "imagen": "./images/pizza_margarita.png",
+        "modal": "7"
+    },
+    {
+        "nombre": "Pizza Napolitana Cartoon",
+        "descripcion": "250g de queso mozzarella, salsa de tomate, tomate fresco recien triturado, ajo, aceitunas.",
+        "precio": 32900,        
+        "imagen": "./images/pizza_napolitana.png",
+        "modal": "8"
+    },
+    {
+        "nombre": "Pizza Pollo con Champiñones Cartoon",
+        "descripcion": "200g de queso mozzarella, trozos de pollo fresco, oregano, alcaparras y anchoas.",
+        "precio": 24900,        
+        "imagen": "./images/pizza_pollo_con_champinones.png",
+        "modal": "9"
+    }
+]
