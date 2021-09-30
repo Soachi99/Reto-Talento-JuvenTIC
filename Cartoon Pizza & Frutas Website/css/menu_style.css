@@ -1,0 +1,56 @@
+/* Fuente  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+/* Estilo menú */
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #ffffff;
+	padding: 50px 0;
+}
+.gallery img{
+	background-color: #790202;
+	padding: 10px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.8);
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+/* Estilo descripcion menú */
+
+h1{
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 70px;
+	font-family: 'Montserrat' 500;
+
+}
+
+h2{
+	font-style: oblique;
+	font-size: 50px;
+}
+
+p{
+	font-style: oblique;
+	font-size: 22px;
+}
+
+/* Botones para añadir al carrito */
+
+.botones{    
+    width: 200px;
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);  
+	margin-top: 100px;   
+}
+
+
