@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/services_style.css">
+    <link rel="stylesheet" href="css/navbar_style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Servicios</title>
+</head>
+
+<body>
+    <!------------------------------------------ NAVBAR ---------------------------------------->
+    <nav class="navbar navbar-expand-xl navbar-dark " style="background-color: rgb(22,22,22);">
+        <div class="container-fluid">
+            <img src="img/logo_banner.png" class="logo">
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#topbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="topbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="/"> <b>Inicio</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/nosotros"> <b>Nosotros</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/menu"> <b>Menú</b> </a></li>
+                    <li class="nav-item"><a class="nav-link active_op" href="/servicio"> <b>Servicios</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contactenos"> <b>Contactanos</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" id="cart" href="/carrito-de-compras">
+                            <img src="img/cart.png" id="carrito" style="width: 40px; height: auto;">
+                            <b> Carrito de compras </b> <sub id="numero" class="fw-bold"> 0 </sub> </a></li>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container" id="title">
+        <h1 class="title">Servicios</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <p class="dark">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, fuga. Accusamus dolorem eos soluta
+                    labore.
+                    Consequatur dolores provident incidunt minus quisquam, expedita quidem iusto, eos commodi ut illum,
+                    ex
+                    reprehenderit.
+                </p>
+            </div>
+            <div class="col">
+                <p class="dark">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, fuga. Accusamus dolorem eos soluta
+                    labore.
+                    Consequatur dolores provident incidunt minus quisquam, expedita quidem iusto, eos commodi ut illum,
+                    ex
+                    reprehenderit.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------- CARDS -------------------------------------->
+
+    <div class="container">
+        <div class="row ">
+            <div class="col d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/celebracion-aniversario.jpg" class="card-img-top"
+                        alt="Aniversario de bodas en restaurante">
+                    <div class="card-body">
+                        <a class="link" href="/servicio/reserva">
+                            <h3>Celebración de aniversios</h3>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/celebracion-cumple.jpg" class="card-img-top"
+                        alt="Celebración de cumpleaños en restaurante">
+                    <div class="card-body">
+                        <a class="link" href="/servicio/reserva">
+                            <h3>Celebración de Cumpleaños</h3>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/celebracion-despedida.jpg" class="card-img-top"
+                        alt="despedida de solteros en restaurante">
+                    <div class="card-body">
+                        <a class="link" href="/servicio/reserva">
+                            <h3>Despedida de Solteros</h3>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/celebracion-fiesta-infantil.jpg" class="card-img-top"
+                        alt="Celebración de fiesta infantil en restaurante">
+                    <div class="card-body">
+                        <a class="link" href="/servicio/reserva">
+                            <h3>Fiestas infantiles</h3>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/cena-con-amigos.jpg" class="card-img-top" alt="cena con amigos en pizzeria">
+                    <div class="card-body">
+                        <a class="link" href="/servicio/reserva">
+                            <h3>Cenas con amigos</h3>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/propuesta-matrimonio-restaurante.jpg" class="card-img-top"
+                        alt="propuesta de matrimonio en restaurante">
+                    <div class="card-body">
+                        <a class="link" href="/servicio/reserva">
+                            <h3>Propuestas de matrimonios</h3>
+                        </a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mas_información">
+        <button onclick="location.href='/contactenos'" type="button"
+            class="btn btn-outline-dark d-block mx-auto mt-5 fw-bold">Más Información</button>
+
+    </div>
+    <div class="reserva">
+        <button onclick="location.href='/servicio/reserva'" type="button"
+            class="btn btn-outline-dark d-block mx-auto mt-5 fw-bold">Haz tu reserva</button>
+    </div>
+
+    <!-------------------------- FOOTER -------------------------------------->
+    <footer>
+        <div class="contenido-footer">
+
+            <img src="img/logo_banner.png" class="logo">
+
+            <div class="mapa-sitio">
+                <a class="titulo-mapa text-decoration-none" href="/mapa-del-sitio">
+                    <h2>Mapa del sitio</h2>
+                </a>
+                <div class="lista-mapa-sitio">
+                    <a href="/">inicio</a>
+                    <a href="/nosotros">nosotros</a>
+                    <a href="/menu">menú</a>
+                    <a href="/servicio">servicios</a>
+                    <a href="/contactenos">contactenos</a>
+                </div>
+            </div>
+
+            <div class="servicios">
+                <h2>servicios especiales</h2>
+                <div class="lista-servicios">
+                    <li>fiestas tematicas</li>
+                    <li>cumpleaños</li>
+                    <li>cartoon party</li>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/num_products.js"></script>
+</body>
+
+</html>

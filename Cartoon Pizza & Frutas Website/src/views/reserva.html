@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar_style.css">
+    <link rel="stylesheet" href="/css/reserva.css">    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+    <title>Reservas</title>
+</head>
+
+<body>
+    <!------------------------------------------ NAVBAR ---------------------------------------->
+    <nav class="navbar navbar-expand-xl navbar-dark " style="background-color: rgb(22,22,22);">
+        <div class="container-fluid">
+            <img src="/img/logo_banner.png" class="logo">
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#topbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="topbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">                    
+                    <li class="nav-item"><a class="nav-link" href="/servicio"> <b>Regresar a Servicios</b> </a></li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="contenedor-form">
+        <form class="formulario" id="form" action="/envio-reserva" method="POST">
+            <h2 class="titulo">Haz tu reserva aquí</h2>
+
+            <p class="nameError"></p>
+            <input type="text" name="nombre" id="name" placeholder="Ingresa tu nombre" required>
+
+            <p class="emailError"></p>
+            <input type="email" name="email" id="email" placeholder="Ingresa tu correo electronico" required>
+
+
+            <input type="tel" name="telefono" id="telefono" /*pattern="[0-9]{0-9}" */ placeholder="Ingresa tu numero de telefono"
+                required>
+
+            <label for="">Numero de personas para la reserva</label>
+            <input type="number" name="numPersonas" placeholder="numero de personas" class="numeroPersonas" id="numeroPersonas" min="1" required>                             
+
+            <select name="servicio" class="servicios" id="servicio" required>
+                <option disabled selected>-- Seleccione el servicio --</option>
+                <option value="Celebracion de Cumpleaños" name="servicio">Celebracion de Cumpleaños</option>
+                <option value="Aniversarios" name="servicio">Aniversarios</option>
+                <option value="Fiestas Infantiles" name="servicio">Fiestas Infantiles</option>
+                <option value="Declaraciones o Propuestas" name="servicio">Declaraciones o Propuestas</option>
+                <option value="Despedidas" name="servicio">Despedidas</option>
+                <option value="Cena con Amigos" name="servicio">Cena con Amigos</option>
+            </select>                                        
+
+            <div class="fecha-hora">
+                <div class="fecha:">
+                    <label for="">Fecha</label>
+                    <input type="date" name="fecha" class="fecha" id="fecha" required>
+                </div>
+                <div class="hora:">
+                    <label for="">Hora</label>
+                    <input type="time" name="hora" class="hora" id="hora" required>
+                </div>            
+            </div>            
+
+            <textarea id="indicionesEspeciales" name="mensaje" class="indicacionesMensaje" cols="30" rows="4"
+                placeholder="Si quieres alguna indicacion especial(peticion extra) escibela aquí"></textarea>
+
+            <button type="submit" class="btn-añadir">Enviar reserva</button>
+        </form>
+    </div>    
+
+    <div class="mostrarReserva">
+    
+    </div>
+
+    <footer>
+        <div class="contenido-footer">
+
+          <img src="/img/logo_banner.png" class="logo">              
+
+          <div class="mapa-sitio">
+              <a class="titulo-mapa text-decoration-none" href="/mapa-del-sitio"> <h2>Mapa del sitio</h2> </a>
+              <div class="lista-mapa-sitio">
+                  <a href="/">inicio</a>
+                  <a href="/nosotros">nosotros</a>
+                  <a href="/menu.html">menú</a>
+                  <a href="/servicio">servicios</a>
+                  <a href="/contactenos">contactenos</a>
+              </div>                
+          </div>
+
+          <div class="servicios-footer">
+              <h2>servicios especiales</h2>
+              <div class="lista-servicios">
+                  <li>fiestas tematicas</li>
+                  <li>cumpleaños</li>
+                  <li>cartoon party</li>
+              </div>                
+          </div>
+        </div>        
+    </footer>
+
+    <!-- <script src="/js/reserva.js"></script> -->
+</body>
+
+</html>

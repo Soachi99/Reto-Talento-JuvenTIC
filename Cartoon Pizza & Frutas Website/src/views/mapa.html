@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mapa_style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/navbar_style.css">   
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap');
+        </style>
+
+    <title>Mapa del Sitio</title>
+
+    
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-xl navbar-dark " style="background-color: rgb(22,22,22);">
+        <div class="container-fluid">
+            <img src="img/logo_banner.png" class="logo">
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#topbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="topbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="/"> <b>Inicio</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/nosotros"> <b>Nosotros</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/menu"> <b>Menú</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/servicio"> <b>Servicios</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contactenos"> <b>Contactanos</b> </a></li>
+                    <li class="nav-item"><a class="nav-link" id="cart" href="/carrito-de-compras">
+                            <img src="img/cart.png" id="carrito" style="width: 40px; height: auto;">
+                            <b> Carrito de compras </b> <sub id="numero" class="fw-bold"> 0 </sub> </a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="mapa" id="mapa" >
+
+        <h1 class="fw-bold fs-1 d-block ms-5">Mapa del Sitio</h1>
+
+        <div class="mapa_container">            
+
+            <div class="lista_inicio">
+                <h1 class="fw-bold d-block ms-2">Inicio</h1>
+                <ul class="list-group">
+                    <a href="/ #banner" class="list-group-item list-group-item-action list-group-item-secondary">Carrusel principal</a>
+                    <a href="/ #propuesta" class="list-group-item list-group-item-action list-group-item-secondary">Nuestra propuesta</a>
+                    <a href="/ #recomendaciones" class="list-group-item list-group-item-action list-group-item-secondary">Platos destacados</a>
+                    <a href="/ #eventos" class="list-group-item list-group-item-action list-group-item-secondary">Servicios especiales</a>
+                    <a href="/ #testimonios" class="list-group-item list-group-item-action list-group-item-secondary">Testimonios</a>
+                </ul>
+            </div>
+
+            <div class="lista_nosotros">
+                <h1 class="fw-bold d-block ms-2">Nosotros</h1>
+                <ul class="list-group">
+                    <a href="/nosotros #historia" class="list-group-item list-group-item-action list-group-item-secondary">Nuestra historia </a>
+                    <a href="/nosotros #personal" class="list-group-item list-group-item-action list-group-item-secondary">Personal</a>                    
+                    <a href="/nosotros #testimonios" class="list-group-item list-group-item-action list-group-item-secondary">Testimonios</a>
+                </ul>
+            </div>
+
+            <div class="lista_menu">
+                <h1 class="fw-bold d-block ms-2">Menú</h1>
+                <ul class="list-group">
+                    <a href="/menu" class="list-group-item list-group-item-action list-group-item-secondary">Menu General </a>
+                    <a href="/menu #menu_completo" class="list-group-item list-group-item-action list-group-item-secondary">Menu Completo </a>
+                </ul>
+            </div>
+
+            <div class="lista_servicios">
+                <h1 class="fw-bold d-block ms-2">Servicios</h1>
+                <ul class="list-group">
+                    <a href="/servicio" class="list-group-item list-group-item-action list-group-item-secondary">Servicios </a>
+                    <a href="/contactenos" class="list-group-item list-group-item-action list-group-item-secondary">Más Información</a>                   
+                </ul>
+            </div>
+
+            <div class="lista_servicios">
+                <h1 class="fw-bold d-block ms-2">Contactanos</h1>
+                <ul class="list-group">
+                    <a href="/contactenos" class="list-group-item list-group-item-action list-group-item-secondary">Contáctenos </a>                    
+                </ul>
+            </div>           
+
+        </div>        
+    </section>
+
+    <footer>
+        <div class="contenido-footer">
+    
+          <img src="img/logo_banner.png" class="logo">              
+    
+          <div class="mapa-sitio">
+            <a class="titulo-mapa text-decoration-none fw-bold" href="/mapa-del-sitio"> <h2>Mapa del sitio</h2> </a>
+              <div class="lista-mapa-sitio">
+                  <a href="/">inicio</a>
+                  <a href="/nosotros">nosotros</a>
+                  <a href="/menu">menú</a>
+                  <a href="/servicio">servicios</a>
+                  <a href="/contactenos">contactenos</a>
+              </div>                
+          </div>
+    
+          <div class="servicios-footer">
+              <h2>servicios especiales</h2>
+              <div class="lista-servicios">
+                  <li>fiestas tematicas</li>
+                  <li>cumpleaños</li>
+                  <li>cartoon party</li>
+              </div>                
+          </div>
+        </div>        
+    </footer>
+
+    <script src="js/num_products.js"></script>
+
+</body>
+
+</html>
