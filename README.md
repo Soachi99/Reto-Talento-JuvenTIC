@@ -1,8 +1,8 @@
-# RETO 01 TALENTO JUVENTIC
+# RETO 02 TALENTO JUVENTIC
 
-![image](https://user-images.githubusercontent.com/88408551/133530498-3952db49-ab21-427c-b689-d806dfd41f5f.png)
+![image](https://user-images.githubusercontent.com/88408551/135940474-9805d9da-e94d-4033-9101-3697f96a5c58.png)
 
-En este primer reto se realizó el diseño y programación front-end de una pagina web de un restaurante, en este caso, una pizzeria con tematica de Batman, llamada Cartoon Pizza & Fruta. Esta pagina web contiene los siguientes apartados
+En este reto se realizó el diseño y programación front-end de una pagina web de un restaurante, en este caso, una pizzeria con tematica de Batman, llamada Cartoon Pizza & Fruta. Esta pagina web contiene los siguientes apartados.
 
 ## INICIO
 
@@ -18,15 +18,30 @@ En la pagina de nosotros se cuenta con una sección de la historia del restauran
 
 ## MENÚ
 
-En la pagina de menu encontraras un grupo de los productos del restaurante.
+En la pagina de menu encontraras los mejores platos del restaurante los cuales los podras reservar, agregandolos a un carrito de compra
 
-![image](https://user-images.githubusercontent.com/88408551/133532823-c6d63072-c1e4-471d-899c-5e0123d6dfbd.png)
+![image](https://user-images.githubusercontent.com/88408551/135940674-60960f7b-db6c-4bea-a5d6-9ec0b108f9de.png)
+
+## CARRITO DE COMPRAS
+
+En esta pagina podras ver los productos que agregaste desde el menú, editar la cantidad que deseas, eleminar si algo no te parece y ademas finalizar tu compra llenando un formulario.
+
+![image](https://user-images.githubusercontent.com/88408551/135940790-43cfa44e-d9f0-464b-8da5-b408e69dfd8a.png)
+
+Una vez hallas completado tus pedido, te llegara un correo de confirmación con los detalles de tu pedido. 
+
+![image](https://user-images.githubusercontent.com/88408551/135940892-e4c17c1d-8d18-42dc-a9a6-ab2860c57047.png)
+
 
 ## SERVICIOS
 
-En la pagina de servicios, encontraras diferentes eventos y servicios que presta el restaurante a sus clientes
+En la pagina de servicios, encontraras diferentes eventos y servicios que presta el restaurante a sus clientes.
 
 ![image](https://user-images.githubusercontent.com/88408551/133533564-ce3b367e-336e-4511-8e93-d2e341158f37.png)
+
+En esta versión de la pagina, podras reservar el evento que desees, llenando un formulario con tus datos personales y se te enviara un correo de confirmación. 
+
+![image](https://user-images.githubusercontent.com/88408551/135940610-0343cdcb-f5da-4b20-b8e3-aaa2999b5755.png)
 
 ## CONTÁCTENOS
 
@@ -42,7 +57,7 @@ En el mapa del sitio encontraras los enlaces correspondientes a todas las seccio
 
 ## MENSAJE A LOS EVALUADORES
 
-Esperamos que sea del agrado de los evaluadores, como fue nuestro el agrado de realizar el proceso de diseño y programación front-end de la pagina web para completar el reto numero 1 del programa. Esto fue realizado por el grupo 3, conformado por:
+Esperamos que sea del agrado de los evaluadores, como fue de nuestro agrado realizar el proceso de diseño y programación front-end y back-end de la pagina web para completar el reto del programa. Esto fue realizado por el grupo 3, conformado por:
 
 - Juan Pablo Insuasty Murillo
 - Dilan Enrique Espíndola Gil
